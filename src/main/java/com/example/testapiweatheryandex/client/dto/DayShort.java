@@ -1,0 +1,32 @@
+package com.example.testapiweatheryandex.client.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class DayShort {
+    public String _source;
+    public int temp;
+    public int temp_min;
+    public double wind_speed;
+    public double wind_gust;
+    public String wind_dir;
+    public int pressure_mm;
+    public int pressure_pa;
+    public int humidity;
+    public int soil_temp;
+    public double soil_moisture;
+    public double prec_mm;
+    public int prec_prob;
+    public int prec_period;
+    public double cloudness;
+    public int prec_type;
+    public double prec_strength;
+    public String icon;
+    public String condition;
+    public int uv_index;
+    public int feels_like;
+    public String daytime;
+    public boolean polar;
+}
